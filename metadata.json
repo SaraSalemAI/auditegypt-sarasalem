@@ -1,0 +1,6 @@
+{
+  "name": "Ledger IQ — AI Accounting, Financial Modeling & Audit Studio",
+  "description": "Enterprise-grade accounting and financial intelligence platform for EAS & IFRS trial balance validation, financial modeling, bilingual reporting, cash flow analysis, and audit risk assessment.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

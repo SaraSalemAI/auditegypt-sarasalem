@@ -1,0 +1,1796 @@
+# MASTER BUILD PROMPT
+# LEDGER IQ — AI ACCOUNTING, FINANCIAL MODELING, ANALYSIS, TRANSLATION & AUDIT STUDIO
+
+## 1. ROLE AND MISSION
+
+Act as a senior multidisciplinary team consisting of:
+
+- Chief Financial Officer (CFO)
+- Chartered Accountant
+- Financial Controller
+- Financial Reporting Specialist
+- Egyptian Accounting Standards (EAS) Specialist
+- IFRS Specialist
+- Financial Analyst and Financial Modeler
+- Treasury and Cash Management Specialist
+- External Audit and Internal Control Specialist
+- Data Engineer
+- AI Application Architect
+- UX/UI Designer
+- Arabic–English Accounting Terminology Specialist
+
+Your mission is to build a complete, professional, enterprise-grade accounting and financial intelligence platform called:
+
+**LEDGER IQ — AI Accounting, Financial Modeling, Analysis, Translation & Audit Studio**
+
+Use the supplied reference applications as design and functional inspiration:
+
+1. Trial Balance / Ledger IQ:
+   https://trial-pilot.lovable.app/
+
+2. Cash Flow Navigator:
+   https://cashflow-genius-forge.lovable.app/
+
+Study their visual design, navigation, workflows, upload processes, mapping screens, validation mechanisms, dashboards, and accounting functionality.
+
+Create one unified application that combines the strongest features of both references and extends them into a comprehensive accounting and financial intelligence platform.
+
+Do not simply create a visual prototype. Build functional workflows with real data processing, calculations, validation, mapping, financial reporting, and evidence traceability.
+
+Preserve the professional visual quality of Ledger IQ while incorporating the cash flow processing and mapping capabilities of Cash Flow Navigator.
+
+---
+
+# 2. CORE PRODUCT OBJECTIVE
+
+Build a platform that transforms uploaded accounting data into:
+
+1. Validated accounting datasets.
+2. Automatically mapped financial accounts.
+3. Trial Balance and General Ledger analysis.
+4. Balance Sheet.
+5. Income Statement.
+6. Cash Flow Statement.
+7. Five-year integrated financial model.
+8. Financial ratio analysis.
+9. Industry benchmarking.
+10. Vertical and horizontal financial analysis.
+11. Historical performance and trend analysis.
+12. Budgeting, forecasting, and scenario analysis.
+13. AI-generated financial insights.
+14. Management recommendations.
+15. EAS and IFRS disclosure assistance.
+16. Audit risk assessments and supporting workpapers.
+17. Preliminary financial reporting and audit-support reports.
+18. Arabic and English accounting reports with correct professional terminology.
+
+The complete workflow must be:
+
+**Upload → Detect → Extract → Validate → Map → Review & Confirm → Calculate → Analyze → Forecast → Benchmark → Translate → Report → Export**
+
+Every result must originate from uploaded information, verified benchmark sources, or clearly identified assumptions.
+
+Never fabricate financial information.
+
+---
+
+# 3. USER EXPERIENCE AND DESIGN SYSTEM
+
+Create a premium executive financial dashboard inspired by modern enterprise accounting and financial intelligence applications.
+
+## Visual design
+
+Use:
+
+- Deep navy as the primary color.
+- White and soft neutral backgrounds.
+- Professional blue accents.
+- Emerald green for positive financial indicators.
+- Soft red for negative indicators and risks.
+- Amber for warnings and items requiring review.
+- Clear typography and consistent spacing.
+- Modern cards, charts, tables, and interactive navigation.
+
+The application must support:
+
+- Light mode.
+- Dark mode.
+- Arabic interface.
+- English interface.
+- Fully functional right-to-left (RTL) Arabic layout.
+- Left-to-right (LTR) English layout.
+- Responsive desktop, tablet, and mobile layouts.
+
+Arabic typography must be readable and professional.
+
+Do not merely change the text direction when switching languages. Reorganize navigation, tables, labels, alignment, icons where necessary, and document layouts to provide a proper localized experience.
+
+## Main navigation
+
+Create the following modules:
+
+1. Executive Dashboard
+2. Upload Center
+3. Data Validation
+4. Account Mapping
+5. Trial Balance
+6. General Ledger
+7. Financial Statements
+8. Cash Flow Analysis
+9. Financial Ratios
+10. Industry Benchmarking
+11. Financial Analysis
+12. Budget & Forecasting
+13. Five-Year Financial Model
+14. AI Financial Insights
+15. Accounting Translation Center
+16. EAS & IFRS Disclosure Center
+17. Audit & Risk Management
+18. Evidence & Audit Trail
+19. Reports & Exports
+20. Settings
+
+---
+
+# 4. ACCOUNTING TRANSLATION & LOCALIZATION ENGINE — NEW CORE FEATURE
+
+Build a dedicated, enterprise-grade **Accounting Translation & Localization Engine**.
+
+This must be a central platform service, not merely a language switch that translates interface text.
+
+Its purpose is to ensure that accounting data uploaded in Arabic, English, or mixed languages can be processed and presented in the user's selected output language using professional accounting terminology consistent with the selected accounting framework.
+
+## 4.1 Separate accounting framework from output language
+
+These settings must operate independently.
+
+### Accounting framework selector
+
+- Egyptian Accounting Standards (EAS).
+- International Financial Reporting Standards (IFRS).
+
+Allow framework versions and effective dates to be configured and maintained.
+
+### Output language selector
+
+- Arabic.
+- English.
+- Bilingual Arabic–English.
+
+Allow users to change the output language without changing the underlying accounting framework or financial calculations.
+
+For example:
+
+- Arabic input + IFRS + English output.
+- English input + EAS + Arabic output.
+- Mixed Arabic and English input + IFRS + bilingual output.
+- Mixed input + EAS + English output.
+
+The application must never interpret a language change as a change in accounting framework.
+
+Differences between EAS and IFRS must be handled through separate accounting rules, classifications, measurement policies, and disclosure logic.
+
+Translation must never silently convert accounting treatment from one framework to another.
+
+## 4.2 Intelligent source-language detection
+
+The application must detect the language of:
+
+- Uploaded Trial Balances.
+- General Ledgers.
+- Sub-ledgers.
+- Chart of Accounts.
+- Journal Entries.
+- Supporting schedules.
+- Financial statement line items.
+- Notes and disclosures.
+- Uploaded PDFs and Excel files.
+
+Support:
+
+- Arabic input.
+- English input.
+- Mixed Arabic and English input.
+- Different languages in different sheets or columns.
+
+Display detected languages in the upload preview and allow users to correct the detection.
+
+Preserve every original account name and source description.
+
+## 4.3 Professional accounting terminology dictionary
+
+Build a centralized bilingual accounting terminology database.
+
+Every accounting concept should support:
+
+- Unique accounting concept ID.
+- Original source expression.
+- Standard English terminology.
+- Standard Arabic terminology.
+- EAS preferred terminology.
+- IFRS preferred terminology.
+- Alternative expressions and synonyms.
+- Definition.
+- Accounting context.
+- Related financial statement.
+- Relevant classification.
+- Applicable framework.
+- Terminology source and version.
+- Approval status.
+
+Use authoritative, properly sourced accounting terminology and approved reference materials.
+
+Where licensed or official translations are required, respect their licensing and usage restrictions.
+
+Do not invent official standard wording or paragraph references.
+
+## 4.4 Terminology mapping and consistency
+
+The system must recognize different expressions that refer to the same accounting concept.
+
+It must map them to a consistent approved accounting term.
+
+For example, the system should recognize relevant expressions for:
+
+- Trade Receivables.
+- Accounts Receivable.
+- Trade Payables.
+- Accounts Payable.
+- Property, Plant and Equipment.
+- Accumulated Depreciation.
+- Retained Earnings.
+- Other Comprehensive Income.
+- Cost of Sales.
+- Operating Expenses.
+- Revenue.
+- Working Capital.
+- Capital Expenditure.
+- Cash Equivalents.
+
+Use the approved framework-specific terminology in financial statements, notes, dashboards, analysis, and exports.
+
+Do not assume that similar expressions always have identical accounting meanings. Resolve ambiguous terms using account context, account nature, supporting records, and mapping review.
+
+## 4.5 Translation Center interface
+
+Create a dedicated Accounting Translation Center with:
+
+- Source language.
+- Target language.
+- Accounting framework.
+- Document or module selection.
+- Translation status.
+- Original wording.
+- Suggested translation.
+- Approved accounting terminology.
+- Translation confidence.
+- User review status.
+- Reviewer comments.
+- Approval and rejection actions.
+
+Users must be able to:
+
+- Approve translations.
+- Edit suggested translations.
+- Reject incorrect translations.
+- Add custom accounting terms.
+- Set preferred terminology.
+- Save company-specific terminology.
+- Import and export glossary files.
+- Maintain different terminology preferences for different frameworks.
+- Review terminology changes and approval history.
+
+Do not silently replace original source account names.
+
+## 4.6 Translate the entire application
+
+The translation engine must cover all financial and operational content, including:
+
+- Account names and codes.
+- Chart of Accounts.
+- Trial Balance.
+- General Ledger.
+- Sub-ledgers.
+- Account classifications.
+- Financial statement headings and line items.
+- Financial statement notes.
+- Financial ratio names and explanations.
+- Benchmarking labels and interpretations.
+- Financial model assumptions and outputs.
+- Budget reports.
+- Variance analysis.
+- Charts and visualizations.
+- AI insights and recommendations.
+- Audit findings.
+- Risk assessments.
+- Internal control observations.
+- Supporting evidence descriptions.
+- Management commentary.
+- Disclosure drafts.
+- Exported reports.
+- Dashboard menus, filters, buttons, notifications, and validation messages.
+
+The system must not leave important accounting sections untranslated when the user has selected a specific language.
+
+## 4.7 Bilingual financial statements and reports
+
+Support three reporting formats:
+
+1. Arabic only.
+2. English only.
+3. Bilingual side-by-side Arabic and English.
+
+For bilingual reports:
+
+- Align corresponding accounting line items.
+- Preserve identical accounting values.
+- Keep account codes consistent.
+- Maintain matching notes and references.
+- Use appropriate RTL and LTR layouts.
+- Ensure tables and numerical columns remain readable.
+
+The Arabic and English versions must be generated from the same underlying accounting data and calculation results.
+
+## 4.8 Translation quality and accounting integrity controls
+
+Never translate or change:
+
+- Account codes.
+- Transaction IDs.
+- Journal references.
+- Financial amounts.
+- Currency values.
+- Debit and credit signs.
+- Accounting formulas.
+- Dates and reporting periods.
+- Source file references.
+- Evidence identifiers.
+
+Preserve numbers, decimal precision, units, and currency formatting.
+
+Flag unclear terminology for human review.
+
+Distinguish between:
+
+- A translated label.
+- An accounting interpretation.
+- An accounting classification.
+- A framework-specific accounting adjustment.
+
+These are different operations and must remain separately identifiable.
+
+## 4.9 Translation evidence and audit history
+
+Every translated field should retain:
+
+- Original text.
+- Translated text.
+- Accounting concept ID.
+- Selected terminology.
+- Accounting framework.
+- Translation source.
+- Translation engine or method.
+- Confidence level where applicable.
+- Approval status.
+- User modification history.
+- Timestamp.
+
+Allow users to view the original term alongside its approved translation.
+
+AI-generated translations must be labeled as working translations unless formally reviewed and approved.
+
+Do not describe AI-generated financial statements or translated reports as certified translations.
+
+---
+
+# 5. MULTI-FILE UPLOAD CENTER
+
+Create one centralized upload center.
+
+The platform must accept multiple files and process them as one accounting reporting package.
+
+## Supported formats
+
+- Excel (.xlsx).
+- Excel (.xls).
+- CSV.
+- PDF.
+- Supporting schedules and documents where supported.
+
+## Primary upload categories
+
+Required or primary data sources:
+
+1. Trial Balance.
+2. General Ledger.
+3. Sub-ledger.
+
+Additional supporting documents:
+
+4. Chart of Accounts.
+5. Opening Balances.
+6. Journal Entries.
+7. Accounts Receivable.
+8. Accounts Payable.
+9. Inventory.
+10. Fixed Assets.
+11. Bank Statements.
+12. Payroll.
+13. Tax Schedules.
+14. Budget.
+15. Previous Financial Statements.
+16. Financial Statement Notes.
+17. Other supporting schedules.
+
+Allow users to upload multiple files, periods, and entities.
+
+## Upload interface
+
+Provide:
+
+- Drag-and-drop upload.
+- File category selection.
+- Multiple-file selection.
+- Upload progress indicators.
+- Processing progress indicators.
+- File status.
+- Error messages.
+- File replacement.
+- Remove file.
+- Re-upload options.
+
+Clearly display which files are required, recommended, or optional for each analysis.
+
+Do not block users from proceeding with partial datasets unless the requested calculation genuinely requires missing information.
+
+Clearly explain which features cannot yet be calculated.
+
+---
+
+# 6. INTELLIGENT DATA EXTRACTION AND IMPORT PREVIEW
+
+Before processing, analyze every uploaded file.
+
+Detect:
+
+- File name.
+- File type.
+- Worksheets.
+- Reporting periods.
+- Entity.
+- Currency.
+- Account codes.
+- Arabic and English account names.
+- Column headers.
+- Debit.
+- Credit.
+- Net balance.
+- Opening balance.
+- Closing balance.
+- Transaction dates.
+- Units and scale.
+
+Recognize common column name variations and different Excel layouts.
+
+For example:
+
+- Debit / Dr / مدين.
+- Credit / Cr / دائن.
+- Account Code / Account Number / كود الحساب.
+- Account Name / Description / اسم الحساب.
+- Opening Balance / رصيد أول المدة.
+- Closing Balance / رصيد آخر المدة.
+
+## Mandatory import preview
+
+Before data is committed, show a complete import preview with:
+
+- Detected columns.
+- Detected data types.
+- Detected periods.
+- Detected currencies.
+- Detected units.
+- Sample rows.
+- Missing values.
+- Possible duplicates.
+- Invalid dates.
+- Unrecognized account codes.
+- Source language.
+
+Allow users to confirm or correct the import configuration.
+
+## Unit and scale detection
+
+Detect whether uploaded numbers are expressed in:
+
+- Units.
+- Thousands.
+- Millions.
+- Other identified scales.
+
+Never automatically change a dataset's scale when the evidence is ambiguous.
+
+Ask the user to confirm uncertain scale assumptions.
+
+Preserve the original uploaded values and record any normalized values separately.
+
+---
+
+# 7. ACCOUNT MAPPING ENGINE
+
+Build an intelligent accounting mapping engine.
+
+Its purpose is to map the uploaded Chart of Accounts and individual account balances into a standardized financial reporting taxonomy.
+
+Support mapping to:
+
+- Assets.
+- Current Assets.
+- Non-current Assets.
+- Liabilities.
+- Current Liabilities.
+- Non-current Liabilities.
+- Equity.
+- Revenue.
+- Cost of Sales.
+- Operating Expenses.
+- Finance Income.
+- Finance Costs.
+- Taxes.
+- Other Comprehensive Income.
+- Cash Flow classifications.
+
+Use account number, account name, account nature, transaction descriptions, historical mapping, and supporting information.
+
+Do not classify solely based on account name.
+
+## 7.1 Mandatory Review & Confirm Mapping screen
+
+Create a dedicated mapping review screen before financial reporting.
+
+Display:
+
+| Field | Description |
+|---|---|
+| Source account code | Original code |
+| Original account name | Arabic or English source name |
+| Proposed mapping | Suggested reporting classification |
+| Financial statement | BS, IS, or CF |
+| Account nature | Debit, credit, asset, liability, etc. |
+| Confidence | Mapping confidence |
+| Alternative mappings | Other suggested classifications |
+| Review status | Pending, approved, or overridden |
+| User decision | Confirm, edit, or reject |
+
+Allow users to:
+
+- Confirm individual mappings.
+- Edit taxonomy.
+- Override AI suggestions.
+- Approve multiple mappings.
+- Reject incorrect mappings.
+- Filter by confidence.
+- Search for specific accounts.
+- Reset suggestions.
+- View mapping history.
+
+Save approved company-specific mappings for future periods.
+
+Never silently treat low-confidence mapping as approved.
+
+---
+
+# 8. ACCOUNTING VALIDATION ENGINE
+
+Create a full accounting data validation layer.
+
+## Trial Balance validation
+
+Check:
+
+- Total debits equal total credits.
+- Opening balance reconciliation.
+- Closing balance reconciliation.
+- Account code uniqueness.
+- Account hierarchy integrity.
+- Missing account names.
+- Duplicate accounts.
+- Suspense accounts.
+- Abnormal balances.
+- Unusual debit and credit positions.
+- Incorrect sign conventions.
+- Unusual movements.
+
+## General Ledger validation
+
+Check:
+
+- Journal entries are balanced.
+- Missing transaction references.
+- Duplicate journal entries.
+- Missing account codes.
+- Invalid dates.
+- Invalid fiscal periods.
+- Out-of-period transactions.
+- Unexpected transaction amounts.
+- Unusual manual adjustments.
+
+## Sub-ledger reconciliation
+
+Check:
+
+- Accounts Receivable sub-ledger versus control account.
+- Accounts Payable sub-ledger versus control account.
+- Inventory sub-ledger versus General Ledger.
+- Fixed Assets register versus General Ledger.
+- Bank balances versus bank reconciliation records.
+
+Show reconciliation differences clearly.
+
+## Validation results
+
+Use:
+
+- Passed.
+- Warning.
+- Failed.
+- Requires review.
+
+Every validation result must show:
+
+- Issue description.
+- Affected account.
+- Amount involved where applicable.
+- Source file.
+- Sheet or page.
+- Row or transaction.
+- Recommended action.
+
+Do not hide errors or automatically repair accounting records without approval.
+
+---
+
+# 9. FINANCIAL STATEMENTS GENERATOR
+
+Generate financial statements directly from validated and approved accounting data.
+
+## 9.1 Balance Sheet / Statement of Financial Position
+
+Organize financial accounts into:
+
+### Assets
+
+- Cash and Cash Equivalents.
+- Trade and Other Receivables.
+- Inventory.
+- Prepayments.
+- Other Current Assets.
+- Property, Plant and Equipment.
+- Accumulated Depreciation.
+- Intangible Assets.
+- Right-of-Use Assets where applicable.
+- Investments.
+- Deferred Tax Assets where applicable.
+- Other Non-current Assets.
+
+### Liabilities
+
+- Trade and Other Payables.
+- Short-term Borrowings.
+- Current Lease Liabilities.
+- Accrued Expenses.
+- Provisions.
+- Long-term Borrowings.
+- Non-current Lease Liabilities.
+- Deferred Tax Liabilities where applicable.
+- Other Liabilities.
+
+### Equity
+
+- Share Capital.
+- Reserves.
+- Retained Earnings.
+- Other Equity Components.
+
+Apply current/non-current presentation and other classifications according to the selected framework and applicable circumstances.
+
+## 9.2 Income Statement / Statement of Profit or Loss
+
+Generate:
+
+- Revenue.
+- Cost of Sales.
+- Gross Profit.
+- Other Operating Income.
+- Selling and Distribution Expenses.
+- Administrative Expenses.
+- Other Operating Expenses.
+- EBITDA where the required components are available.
+- Depreciation and Amortization.
+- EBIT / Operating Profit.
+- Finance Income.
+- Finance Costs.
+- Profit Before Tax.
+- Income Tax Expense.
+- Net Profit or Loss.
+
+Where applicable, support Other Comprehensive Income and the appropriate statement presentation.
+
+Clearly distinguish reported accounting figures from derived analytical measures such as EBITDA.
+
+## 9.3 Cash Flow Statement
+
+Generate Cash Flow Statements in accordance with IAS 7 or the selected Egyptian Accounting Standard requirements.
+
+Support:
+
+- Direct method.
+- Indirect method.
+
+Classify cash flows into:
+
+1. Operating Activities.
+2. Investing Activities.
+3. Financing Activities.
+
+Include:
+
+- Cash and cash equivalents at beginning of period.
+- Net movement in cash.
+- Cash and cash equivalents at end of period.
+
+Provide a clear classification policy and mapping review.
+
+IMPORTANT:
+
+A single-period Trial Balance alone may not contain enough information to reliably reconstruct all cash flows.
+
+Use comparative balances, General Ledger transaction details, and supporting schedules where available.
+
+Where information is insufficient:
+
+- Identify the missing information.
+- Explain why it is required.
+- Request supporting files.
+- Distinguish calculated figures from estimates.
+- Never fabricate cash flow movements.
+
+---
+
+# 10. FIVE-YEAR INTEGRATED FINANCIAL MODEL
+
+Build a dynamic five-year financial model linked to the financial statements.
+
+The model must connect:
+
+- Income Statement.
+- Balance Sheet.
+- Cash Flow Statement.
+
+Support:
+
+- Annual projections.
+- Monthly projections where sufficient data is available.
+- Historical actuals.
+- Forecasts.
+- Budget.
+- Actual versus budget.
+
+## Revenue assumptions
+
+Allow:
+
+- Revenue growth assumptions.
+- Volume and price assumptions.
+- Business-unit assumptions.
+- Customer growth assumptions.
+- Product or service-level forecasts.
+
+## Cost assumptions
+
+Include:
+
+- Cost of Goods Sold.
+- Direct Costs.
+- Operating Expenses.
+- Staff Costs.
+- Selling Expenses.
+- Administrative Expenses.
+- Finance Costs.
+- Taxes.
+
+## Working Capital assumptions
+
+Include:
+
+- Accounts Receivable.
+- Accounts Payable.
+- Inventory.
+- DSO.
+- DPO.
+- DIO.
+- Cash Conversion Cycle.
+
+## Capital expenditure and assets
+
+Include:
+
+- CAPEX.
+- OPEX.
+- Asset additions.
+- Depreciation.
+- Asset disposals.
+- Replacement investment.
+
+## Financing
+
+Include:
+
+- Short-term debt.
+- Long-term debt.
+- Loan repayments.
+- Interest assumptions.
+- Equity movements.
+- Dividend assumptions.
+
+## Forecast scenarios
+
+Support:
+
+1. Base Case.
+2. Optimistic Case.
+3. Pessimistic Case.
+
+Allow assumptions to be edited and compared.
+
+Every forecast assumption must be visible, editable, and traceable.
+
+Never present an AI-generated forecast as a historical fact.
+
+---
+
+# 11. FINANCIAL RATIO ANALYSIS
+
+Create a comprehensive financial ratios module.
+
+Each ratio must include:
+
+- Ratio name.
+- Definition.
+- Formula.
+- Formula components.
+- Current period value.
+- Previous period value.
+- Historical trend.
+- Interpretation.
+- Performance indicator.
+- Industry benchmark.
+- Gap versus benchmark.
+- Recommended action.
+- Supporting data and evidence.
+
+## 11.1 Liquidity ratios
+
+Include:
+
+- Current Ratio.
+- Quick Ratio.
+- Cash Ratio.
+- Working Capital.
+- Operating Cash Flow Ratio.
+
+## 11.2 Profitability ratios
+
+Include:
+
+- Gross Profit Margin.
+- Operating Profit Margin.
+- EBITDA Margin.
+- Net Profit Margin.
+- Return on Assets.
+- Return on Equity.
+- Return on Capital Employed.
+
+## 11.3 Efficiency ratios
+
+Include:
+
+- Inventory Turnover.
+- Receivables Turnover.
+- Payables Turnover.
+- Days Sales Outstanding.
+- Days Inventory Outstanding.
+- Days Payables Outstanding.
+- Cash Conversion Cycle.
+- Total Asset Turnover.
+
+## 11.4 Leverage and solvency ratios
+
+Include:
+
+- Debt-to-Equity.
+- Debt-to-Assets.
+- Equity Ratio.
+- Interest Coverage.
+- Net Debt to EBITDA, where relevant.
+
+## 11.5 Cash flow ratios
+
+Include:
+
+- Operating Cash Flow Margin.
+- Operating Cash Flow to Current Liabilities.
+- Cash Flow Coverage.
+- Free Cash Flow.
+- Cash Flow to Debt.
+
+## 11.6 Growth ratios
+
+Include:
+
+- Revenue Growth.
+- Gross Profit Growth.
+- Operating Profit Growth.
+- Net Profit Growth.
+- Asset Growth.
+- Equity Growth.
+
+## 11.7 Market and valuation ratios
+
+Only calculate when the necessary share price, share count, and market information are supplied or obtained from reliable verified sources.
+
+Potential metrics:
+
+- Earnings Per Share.
+- Price-to-Earnings.
+- Price-to-Book.
+- Enterprise Value to EBITDA.
+- Dividend Yield.
+
+Do not invent missing market inputs.
+
+---
+
+# 12. INDUSTRY BENCHMARKING ENGINE — MANDATORY FEATURE
+
+Build an independent but integrated Industry Benchmarking Engine.
+
+The purpose is to show the user how the company's financial performance compares with the relevant sector.
+
+Do not show company ratios in isolation.
+
+Each applicable ratio card must include company performance and industry comparison.
+
+## 12.1 Company and industry classification
+
+Collect or allow users to configure:
+
+- Country.
+- Industry.
+- Sub-industry.
+- Business activity.
+- Company size.
+- Annual revenue range.
+- Total assets range.
+- Listed or privately held status.
+- Reporting period.
+- Accounting framework.
+- Consolidated or standalone statements.
+
+Allow users to review and change the proposed industry classification.
+
+Do not assume that all companies within a broad industry are directly comparable.
+
+## 12.2 Benchmark data sources
+
+Use sources in the following priority order:
+
+1. Relevant official Egyptian sector data, where available.
+2. Reliable sector-specific datasets.
+3. Comparable companies operating in the same country.
+4. Recognized international industry databases.
+5. Publicly available peer-company financial statements.
+6. User-uploaded peer-company data.
+7. Management-provided custom benchmarks.
+
+Where external data is required, identify the source and reporting date.
+
+Do not invent benchmark values.
+
+## 12.3 Benchmark information on every ratio card
+
+Display:
+
+- Company's actual ratio.
+- Industry average.
+- Industry median.
+- 25th percentile where available.
+- 75th percentile where available.
+- Best-performing range where supported.
+- Difference between company and industry.
+- Company position relative to peers.
+- Performance status.
+- Historical trend.
+- Interpretation.
+- Recommended action.
+
+For example:
+
+Current Ratio:
+
+- Company: 1.35x.
+- Industry Average: 1.80x.
+- Gap: -0.45x.
+- Position: Below industry average.
+
+These values are illustrative only. Never use them as actual benchmarks.
+
+## 12.4 Benchmark comparison and interpretation
+
+The application must understand that higher is not always better.
+
+For every ratio, define whether:
+
+- Higher is generally favorable.
+- Lower is generally favorable.
+- An optimal range is more appropriate.
+- Context and operating model determine the interpretation.
+
+For example:
+
+- A high inventory turnover ratio may indicate efficiency but may also signal insufficient inventory.
+- A very high current ratio may indicate excess idle working capital.
+- A high debt-to-equity ratio may indicate elevated financial risk, but industry context matters.
+
+Use context-sensitive recommendations rather than simplistic green/red comparisons.
+
+## 12.5 Benchmark source transparency
+
+For each benchmark, display:
+
+- Source organization.
+- Dataset or report name.
+- Country.
+- Industry classification.
+- Reporting period.
+- Publication date.
+- Sample size, if available.
+- Calculation methodology.
+- Definitions and formulas.
+- Source link.
+- Reliability or confidence indicator.
+
+If no reliable benchmark is available, display:
+
+"Industry benchmark unavailable — reliable comparable data not found."
+
+Never substitute a fabricated benchmark.
+
+## 12.6 Comparability controls
+
+Check whether the company and benchmark data are reasonably comparable in terms of:
+
+- Accounting framework.
+- Reporting period.
+- Industry classification.
+- Geography.
+- Business model.
+- Company size.
+- Consolidated versus standalone reporting.
+- Ratio calculation methodology.
+
+Flag significant comparability limitations.
+
+Do not show percentiles without sufficient sample data and a disclosed methodology.
+
+## 12.7 Peer-company comparison
+
+Allow users to upload peer-company financial statements and benchmark data.
+
+Provide:
+
+- Peer selection.
+- Peer-company profiles.
+- Comparative financial ratios.
+- Financial performance ranking where evidence supports it.
+- Company versus peer analysis.
+- Sector averages.
+- Peer median.
+
+## 12.8 Dedicated benchmarking dashboard
+
+Create a dashboard containing:
+
+- Company versus industry performance.
+- Strongest financial ratios.
+- Weakest financial ratios.
+- Largest gaps.
+- Liquidity positioning.
+- Profitability positioning.
+- Efficiency positioning.
+- Leverage and solvency positioning.
+- Historical benchmark trends.
+- Recommended improvement priorities.
+
+AI recommendations must be linked to actual company data and identified benchmark sources.
+
+---
+
+# 13. VERTICAL AND HORIZONTAL FINANCIAL ANALYSIS
+
+## Vertical analysis
+
+Calculate:
+
+- Balance Sheet items as percentages of total assets or an appropriate reporting base.
+- Income Statement items as percentages of revenue.
+- Cash Flow components against appropriate reference totals where useful.
+
+Display percentages and underlying amounts.
+
+## Horizontal analysis
+
+Calculate:
+
+- Absolute changes.
+- Percentage changes.
+- Period-over-period movements.
+- Year-over-year trends.
+- Significant variations.
+
+Allow comparisons between multiple periods.
+
+Clearly identify the comparison base and flag calculations where the base is zero or negative.
+
+---
+
+# 14. AI FINANCIAL INSIGHTS AND MANAGEMENT RECOMMENDATIONS
+
+Build an AI analysis layer that converts accounting outputs into clear, evidence-based management insights.
+
+Provide separate analysis for:
+
+1. Balance Sheet.
+2. Income Statement.
+3. Cash Flow Statement.
+4. Financial Ratios.
+5. Industry Benchmarking.
+6. Budget versus Actual.
+7. Financial Forecasts.
+8. Working Capital.
+9. Liquidity and Treasury.
+10. Financial Risks.
+
+Every insight must include:
+
+- Finding.
+- Financial significance.
+- Amount involved where available.
+- Related account or ratio.
+- Period.
+- Possible cause.
+- Evidence.
+- Recommended action.
+- Confidence or review status.
+
+Distinguish:
+
+- Facts calculated from source data.
+- AI interpretations.
+- Forecasts.
+- Assumptions.
+- Recommendations.
+
+Do not state a suspected cause as a proven fact.
+
+Include an executive summary written for CFOs and CEOs.
+
+Support Arabic, English, and bilingual AI-generated narratives using the Accounting Translation Engine.
+
+---
+
+# 15. BUDGETING AND FORECASTING MODULE
+
+Create a budgeting module supporting:
+
+- Annual budgets.
+- Monthly budgets.
+- Department budgets.
+- Cost-center budgets.
+- Revenue budgets.
+- Expense budgets.
+- CAPEX budgets.
+- OPEX budgets.
+- Cash budgets.
+
+Support:
+
+- Actual versus Budget.
+- Actual versus Forecast.
+- Budget versus Previous Year.
+- Variance Analysis.
+- Flexible Budget.
+- Scenario Planning.
+
+For every variance, show:
+
+- Budget value.
+- Actual value.
+- Absolute variance.
+- Percentage variance.
+- Favorable or unfavorable classification.
+- Explanation where evidence is available.
+- Recommended action.
+
+Allow budget imports from Excel and user approval of uploaded budget structures.
+
+---
+
+# 16. EAS AND IFRS DISCLOSURE ASSISTANCE CENTER
+
+Create a standards-aware disclosure assistance module.
+
+Allow users to select:
+
+- Egyptian Accounting Standards.
+- IFRS.
+
+Allow the platform to maintain the applicable standards version and effective dates.
+
+Generate draft disclosures based on:
+
+- Uploaded accounting information.
+- Relevant financial statement balances.
+- Supporting schedules.
+- User-provided explanations.
+- Applicable standard requirements.
+
+Support:
+
+- Disclosure checklists.
+- Notes to financial statements.
+- Accounting policies.
+- Significant judgments.
+- Estimation uncertainty.
+- Related-party disclosures.
+- Financial instruments disclosures where applicable.
+- Property, Plant and Equipment disclosures.
+- Lease disclosures where applicable.
+- Revenue disclosures.
+- Cash and cash equivalents.
+- Provisions and contingencies.
+
+Show:
+
+- Disclosure requirement.
+- Required information.
+- Available data.
+- Missing information.
+- Draft wording.
+- Relevant standard reference.
+- Source and version.
+- Reviewer status.
+
+Never invent standard paragraph references.
+
+Clearly distinguish between:
+
+- Draft disclosure.
+- Verified disclosure requirement.
+- Missing supporting evidence.
+- User-approved disclosure.
+
+Do not claim that an AI-generated disclosure guarantees accounting-standard compliance.
+
+Use the Accounting Translation Engine to generate professionally worded Arabic, English, or bilingual disclosure drafts.
+
+---
+
+# 17. AUDIT AND RISK MANAGEMENT STUDIO
+
+Build a dedicated audit-support environment.
+
+Analyze uploaded records for potential risks and exceptions.
+
+## Risk identification
+
+Include:
+
+- Unusual balances.
+- Unusual journal entries.
+- Duplicate transactions.
+- Suspense accounts.
+- Unreconciled balances.
+- Unexpected account movements.
+- Period-end adjustments.
+- Unusual manual postings.
+- Abnormal account balances.
+- Possible classification errors.
+- Unsupported balances.
+- Incomplete documentation.
+
+## Audit assertions
+
+Where relevant, organize potential risks around:
+
+- Existence.
+- Completeness.
+- Accuracy.
+- Valuation.
+- Rights and Obligations.
+- Cut-off.
+- Classification.
+- Presentation and Disclosure.
+
+## Risk assessment
+
+Display:
+
+- Risk description.
+- Affected account.
+- Amount involved.
+- Risk category.
+- Risk severity.
+- Evidence.
+- Suggested audit procedure.
+- Reviewer decision.
+
+Do not describe an anomaly as fraud unless sufficient evidence supports that conclusion.
+
+## Preliminary external audit report
+
+Generate an audit-support report containing:
+
+- Scope of analyzed data.
+- Data limitations.
+- Identified exceptions.
+- Reconciliation findings.
+- Risk observations.
+- Potential adjustments.
+- Missing evidence.
+- Recommendations.
+- Management responses.
+- Reviewer notes.
+
+Allow the user to draft reports using different potential opinion formats for professional review.
+
+Any audit opinion must remain the responsibility of the appropriately authorized independent auditor.
+
+Clearly label all generated audit reports as drafts or audit-support material, not an independent auditor's signed opinion.
+
+---
+
+# 18. EVIDENCE AND AUDIT TRAIL — CRITICAL REQUIREMENT
+
+Every important financial output must be traceable to its source.
+
+Create a universal "Show Evidence" action.
+
+When the user clicks Show Evidence, display:
+
+1. The AI finding or reported figure.
+2. The calculation or rule applied.
+3. The source financial statement line.
+4. The mapped account.
+5. The original account code and name.
+6. The source file.
+7. The worksheet or PDF page.
+8. The row or transaction reference.
+9. The original uploaded data.
+10. Relevant mapping and approval history.
+
+The evidence path must support:
+
+**Original File → Imported Row → Account → Mapping → Calculation → Financial Statement → Ratio → Benchmark → AI Insight → Recommendation**
+
+For benchmark-based findings, also display the external benchmark source and its methodology.
+
+Do not show a Show Evidence button that leads to empty, generic, or fabricated evidence.
+
+---
+
+# 19. EXECUTIVE DASHBOARD
+
+Build an interactive CFO/CEO dashboard.
+
+Display:
+
+## Financial position
+
+- Total Assets.
+- Total Liabilities.
+- Total Equity.
+- Cash and Cash Equivalents.
+- Working Capital.
+
+## Financial performance
+
+- Revenue.
+- Gross Profit.
+- Operating Profit.
+- EBITDA where derivable.
+- Net Profit.
+
+## Liquidity and cash flow
+
+- Operating Cash Flow.
+- Investing Cash Flow.
+- Financing Cash Flow.
+- Net Cash Movement.
+- Current Ratio.
+- Quick Ratio.
+
+## Profitability and efficiency
+
+- Gross Margin.
+- Net Profit Margin.
+- ROA.
+- ROE.
+- DSO.
+- DPO.
+- DIO.
+- Cash Conversion Cycle.
+
+## Benchmarking
+
+- Company versus industry.
+- Ratios above benchmark.
+- Ratios below benchmark.
+- Largest performance gaps.
+- Peer comparison where available.
+
+## Risk and recommendations
+
+- High-risk findings.
+- Reconciliation issues.
+- Missing information.
+- Major financial risks.
+- Recommended management actions.
+
+All dashboard elements must support drill-down into underlying calculations and evidence.
+
+Support filtering by:
+
+- Entity.
+- Period.
+- Department.
+- Cost Center.
+- Currency.
+- Scenario.
+- Financial statement.
+- Accounting framework.
+
+---
+
+# 20. MULTI-ENTITY AND MULTI-CURRENCY SUPPORT
+
+Support:
+
+- Multiple companies.
+- Subsidiaries.
+- Consolidated reporting.
+- Separate reporting entities.
+- Multiple accounting periods.
+- EGP as the default currency.
+- USD.
+- EUR.
+- Other configurable currencies.
+
+Support exchange-rate inputs and currency conversion with transparent source and rate-date tracking.
+
+Never silently convert financial amounts or combine currencies without a defined reporting-currency policy.
+
+Where consolidation is supported, separately identify intercompany balances, eliminations, and consolidation adjustments.
+
+---
+
+# 21. EXPORT AND REPORT GENERATION
+
+Allow users to export:
+
+- Excel.
+- CSV.
+- PDF.
+- Management reports.
+- Financial statements.
+- Ratio analysis.
+- Industry benchmark reports.
+- Five-year financial models.
+- Budget variance reports.
+- Cash flow reports.
+- Disclosure drafts.
+- Audit-support reports.
+
+Every report must support:
+
+1. Arabic.
+2. English.
+3. Bilingual Arabic–English.
+
+Excel reports should contain formulas where appropriate and preserve numerical precision.
+
+PDF reports should have professional page layouts, consistent formatting, correct RTL/LTR behavior, and readable tables.
+
+Allow users to export individual modules or a complete financial reporting package.
+
+---
+
+# 22. TECHNICAL ARCHITECTURE AND DATA INTEGRITY
+
+Build a modular, maintainable application.
+
+Separate:
+
+- File ingestion.
+- Extraction.
+- Data normalization.
+- Translation and terminology.
+- Accounting taxonomy.
+- Mapping.
+- Validation.
+- Financial calculations.
+- Benchmark data.
+- Forecasting.
+- AI insights.
+- Reporting.
+- Audit evidence.
+
+Maintain a clear distinction between raw data, normalized data, approved mappings, calculated values, forecasts, and AI-generated commentary.
+
+## Core data principles
+
+- Preserve original uploaded files.
+- Preserve original imported values.
+- Never overwrite historical source data.
+- Store user-approved mapping decisions.
+- Record assumptions and manual adjustments.
+- Maintain calculation version history.
+- Record benchmark source information.
+- Record translation and terminology approvals.
+- Track reviewer and approval history.
+- Provide traceable changes.
+
+Use appropriate authentication, authorization, and company-level access controls.
+
+Protect sensitive financial information.
+
+Do not expose one company's accounting information to another company or unauthorized user.
+
+Validate all imported files and handle malformed or unsupported files safely.
+
+---
+
+# 23. IMPLEMENTATION ROADMAP
+
+Build the application in functional stages.
+
+## Stage 1 — Application foundation
+
+- Navigation.
+- Design system.
+- Authentication and company setup.
+- Language and theme settings.
+- Accounting framework settings.
+- Multi-entity structure.
+
+## Stage 2 — Upload and data processing
+
+- Multi-file upload.
+- CSV, Excel, and PDF processing.
+- Import preview.
+- Source-language detection.
+- Currency and scale detection.
+- Data normalization.
+
+## Stage 3 — Mapping and validation
+
+- Account mapping engine.
+- Mandatory Review & Confirm Mapping.
+- Accounting validation.
+- Reconciliation.
+- Mapping history.
+
+## Stage 4 — Financial reporting
+
+- Trial Balance.
+- General Ledger.
+- Balance Sheet.
+- Income Statement.
+- Cash Flow Statement.
+- Financial statement validation.
+
+## Stage 5 — Financial intelligence
+
+- Financial ratios.
+- Vertical and horizontal analysis.
+- Industry benchmarking.
+- AI insights.
+- Management recommendations.
+
+## Stage 6 — Modeling and compliance
+
+- Five-year integrated model.
+- Budgeting.
+- Forecasting.
+- Scenario analysis.
+- EAS and IFRS disclosure assistance.
+- Accounting Translation Center.
+
+## Stage 7 — Audit and delivery
+
+- Audit and risk studio.
+- Show Evidence.
+- Audit trail.
+- Export center.
+- Bilingual reporting.
+- End-to-end testing.
+
+Prioritize a working end-to-end accounting workflow over building disconnected screens.
+
+---
+
+# 24. MANDATORY ACCEPTANCE TESTS
+
+The application is not complete until the following tests work.
+
+### Test 1 — Arabic Trial Balance to English Statements
+
+Upload an Arabic Trial Balance.
+
+Select:
+
+- Framework: IFRS.
+- Output: English.
+
+Expected result:
+
+- Detect Arabic account names.
+- Extract account codes and values.
+- Propose financial statement mappings.
+- Request mapping confirmation.
+- Validate debit and credit totals.
+- Generate supported financial statements in English.
+- Preserve original Arabic source names.
+- Show the original account and mapping evidence.
+
+### Test 2 — English General Ledger to Arabic Reports
+
+Upload an English General Ledger.
+
+Select:
+
+- Framework: EAS.
+- Output: Arabic.
+
+Expected result:
+
+- Process English account names.
+- Map them to appropriate reporting classifications.
+- Generate Arabic reports with professional terminology.
+- Maintain source and calculation traceability.
+
+### Test 3 — Mixed Arabic and English Files
+
+Upload multiple files containing both languages.
+
+Expected result:
+
+- Detect languages at file, sheet, and field level where possible.
+- Normalize data without losing original text.
+- Identify duplicate and potentially matching accounts.
+- Generate consistent terminology in the selected output language.
+
+### Test 4 — Bilingual Financial Statements
+
+Select bilingual output.
+
+Expected result:
+
+- Generate Arabic and English financial statements.
+- Maintain identical numerical values.
+- Match line items and notes.
+- Preserve correct RTL/LTR formatting.
+
+### Test 5 — Framework and Language Independence
+
+Change output language from Arabic to English without changing the selected framework.
+
+Expected result:
+
+- Only language and terminology presentation should change.
+- Accounting calculations and approved framework-specific treatments should remain unchanged.
+
+Then change the accounting framework.
+
+Expected result:
+
+- Reassess the applicable accounting policies, classifications, disclosures, and adjustments.
+- Show the impact of any framework differences.
+- Require review and approval where necessary.
+
+### Test 6 — Industry Benchmarking
+
+Upload company financial statements and provide an industry classification.
+
+Expected result:
+
+- Calculate applicable company ratios.
+- Retrieve or accept verified benchmark data.
+- Show industry averages and other supported statistics.
+- Display benchmark sources and reporting periods.
+- Identify gaps.
+- Generate evidence-based recommendations.
+- Clearly label unavailable benchmarks.
+
+### Test 7 — Mapping Review
+
+Upload a Trial Balance with unfamiliar account names.
+
+Expected result:
+
+- Generate proposed mappings.
+- Show confidence levels.
+- Allow user overrides.
+- Save approved mappings.
+- Reflect approved mappings in financial statements.
+
+### Test 8 — Accounting Integrity
+
+Upload incomplete or unbalanced data.
+
+Expected result:
+
+- Identify missing information.
+- Flag validation failures.
+- Prevent unsupported financial conclusions.
+- Explain which reports can and cannot be generated.
+
+### Test 9 — Evidence Traceability
+
+Select a financial ratio, risk finding, or AI recommendation.
+
+Expected result:
+
+- Trace it to the relevant calculation, mapped accounts, original imported values, and source files.
+- For benchmarking, trace the comparison to its source dataset.
+
+### Test 10 — Translation Consistency
+
+Use an accounting concept in several modules.
+
+Expected result:
+
+- Use the same approved terminology across financial statements, dashboards, analysis, disclosures, and exports.
+- Preserve framework-specific terminology distinctions.
+- Show the original source term and terminology approval history.
+
+---
+
+# 25. FINAL PRODUCT STANDARD
+
+The final application must operate as a complete AI-enabled accounting and financial intelligence platform.
+
+It must be able to transform accounting files into validated financial statements, five-year financial models, financial analysis, industry benchmarking, bilingual accounting reports, disclosure assistance, and audit-support outputs.
+
+The central operating principles are:
+
+1. Accuracy before automation.
+2. Evidence before conclusions.
+3. Accounting standards before assumptions.
+4. Professional terminology before literal translation.
+5. Benchmark transparency before comparison.
+6. Human approval before material accounting overrides.
+7. Traceability before AI recommendations.
+8. Functional calculations before decorative dashboards.
+
+Do not use hardcoded demo figures in production workflows.
+
+Do not simulate successful data processing using timers or fake results.
+
+All financial calculations must use actual uploaded or explicitly approved data.
+
+Clearly identify unavailable information, unverified assumptions, and limitations.
+
+Build the platform so that a CFO, Financial Controller, Accountant, Financial Analyst, and Auditor can use it as a professional accounting and decision-support environment.
+
+**The ultimate objective: One platform that transforms raw accounting data into reliable, explainable, standards-aware, benchmarked, and professionally translated financial intelligence.**
